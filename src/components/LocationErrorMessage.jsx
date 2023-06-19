@@ -11,7 +11,7 @@ export default function LocationErrorMessage(props) {
 	}
 
 	return (
-		<div className="container bg-red-800 text-center text-white rounded-lg text-sm font-bold px-4 py-3" role="alert">
+		<div className="container bg-green-800 text-center text-white rounded-lg text-sm font-bold px-4 py-3" role="alert">
 			Could not get location: {errorsMap[locationError.code]}
 		</div>
 	)

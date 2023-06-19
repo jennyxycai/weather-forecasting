@@ -5,6 +5,8 @@ import FiveDayForecast from './components/FiveDayForecast';
 import Loading from './components/Loading';
 import LocationErrorMessage from './components/LocationErrorMessage';
 import { getWeatherForecast } from './services/weather';
+import { getNews } from './services/news_api';
+
 import './App.css';
 
 function App() {
