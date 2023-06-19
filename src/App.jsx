@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((location) => {
-        getWeatherForecast(location.coords.latitude, location.coords.longitude)
+        getWeatherForecast("New York")
           .then(setWeather)
           .then(() => setLoaded(true));
       }, (locationError) => {

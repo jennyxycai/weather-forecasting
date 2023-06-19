@@ -1,5 +1,5 @@
 
-export default function FiveDayForecast(props) {
+export default function NewsHeadlines(props) {
   const { news, loaded } = props;
 
   if (!loaded) return null;
